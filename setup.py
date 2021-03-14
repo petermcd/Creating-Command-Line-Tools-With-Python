@@ -15,4 +15,7 @@ setup(
     long_description='Quick tutorial showing how a command may work',
     packages=find_packages(),
     package_dir={'hey': 'hey'},
+    install_requires=[
+        'numpy',
+    ]
 )
